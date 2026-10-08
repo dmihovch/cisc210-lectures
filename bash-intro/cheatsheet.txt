@@ -1,0 +1,13 @@
+date +"%H:%M:%S"
+
+time python3 long
+
+man man > man.txt
+
+last | head
+last | tail
+
+
+cat file.{md,txt}
+cat file.? / ?? / ???
+cat file.*

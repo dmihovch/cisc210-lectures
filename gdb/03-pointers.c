@@ -22,8 +22,9 @@ int main(void) {
     printf("sizeof(p)  = %zu bytes  (an address is %zu bytes on this machine)\n",
            sizeof(p), sizeof(void *));
 
-    *p = 99;              // writes 99 to value
-    printf("after '*p = 99', value = %d\n", value);
+    *p = 99;             
+
+	int something = 10;
 
     return 0;
 }

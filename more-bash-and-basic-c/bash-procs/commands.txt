@@ -1,0 +1,10 @@
+ps
+ps aux
+ps aux | grep $USER
+ps -eo user=
+ps -eo user= | sort | uniq -c
+
+
+ls | sort -r
+ls | sort -R
+

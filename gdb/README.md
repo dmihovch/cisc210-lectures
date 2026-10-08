@@ -1,5 +1,7 @@
 # GDB Demo Run Sheet
 
+https://github.com/dmihovch/cisc210-lectures.git
+
 Build: `make` (7 programs, flags `-g -O0`). Clean: `make clean`.
 
 | Command | Effect |

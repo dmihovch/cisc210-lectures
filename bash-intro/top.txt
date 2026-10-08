@@ -1,0 +1,14 @@
+PID	Process ID
+USER	User who owns the process
+PR	Scheduling priority
+NI	Nice value
+VIRT	Total virtual memory associated with process
+RES	Physical RAM currently resident
+SHR	Shared portion of resident memory
+S	Process state
+%CPU	CPU usage
+%MEM	Percentage of RAM used
+TIME+	Total CPU time consumed
+COMMAND	Program/process name
+
+

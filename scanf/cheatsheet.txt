@@ -1,0 +1,4 @@
+linefeed gets consumed and printed by scanf | ex0
+linefeed gets consumed and not printed by scanf | ex1
+converting characters to ascii and ascii to characters | ex1
+

@@ -14,7 +14,6 @@ int multiplyAndSome(int n, int m) {
 
 int plusTen(int n) {
 
-    int x = 3;
     int p = n + 10;
     p = multiplyAndSome(p, 10);
     return p;
