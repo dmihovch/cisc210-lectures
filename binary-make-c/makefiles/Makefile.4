@@ -1,0 +1,21 @@
+CC = cc
+CFLAGS = -Wall -Wextra
+TARGET = convert
+OBJECTS = main.o binary.o ascii.o
+
+all: $(TARGET)
+
+$(TARGET): $(OBJECTS)
+	$(CC) $^ -o $@
+
+main.o: main.c
+	$(CC) $(CFLAGS) -c $<
+
+binary.o: binary.c
+	$(CC) $(CFLAGS) -c $<
+
+ascii.o: ascii.c
+	$(CC) $(CFLAGS) -c $<
+
+clean:
+	rm -f $(TARGET) $(OBJECTS)

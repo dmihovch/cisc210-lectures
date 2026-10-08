@@ -1,0 +1,10 @@
+CC = cc
+CFLAGS = -Wall -Wextra
+TARGET = convert
+SOURCES = main.c binary.c ascii.c
+
+all:
+	$(CC) $(CFLAGS) $(SOURCES) -o $(TARGET)
+
+clean:
+	rm -f $(TARGET)

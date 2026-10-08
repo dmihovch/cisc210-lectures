@@ -1,0 +1,23 @@
+# object files
+*.o
+
+# compiled programs
+a.out
+binary-make-c/binary/01-unsigned
+binary-make-c/binary/02-ascii-table
+binary-make-c/binary/03-ascii
+binary-make-c/binary/04-binary
+binary-make-c/binary/05-hex
+binary-make-c/makefiles/convert
+gdb/01-stepping
+gdb/02-callstack
+gdb/03-pointers
+gdb/04-array
+gdb/05-swap
+gdb/06-offbyone
+gdb/07-segfault
+gdb/stepping
+
+# editor files
+*~
+*.swp
