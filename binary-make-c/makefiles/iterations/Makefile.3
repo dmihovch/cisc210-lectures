@@ -6,16 +6,16 @@ OBJECTS = main.o binary.o ascii.o
 all: $(TARGET)
 
 $(TARGET): $(OBJECTS)
-	$(CC) $^ -o $@
+	$(CC) $(OBJECTS) -o $(TARGET)
 
 main.o: main.c
-	$(CC) $(CFLAGS) -c $<
+	$(CC) $(CFLAGS) -c main.c
 
 binary.o: binary.c
-	$(CC) $(CFLAGS) -c $<
+	$(CC) $(CFLAGS) -c binary.c
 
 ascii.o: ascii.c
-	$(CC) $(CFLAGS) -c $<
+	$(CC) $(CFLAGS) -c ascii.c
 
 clean:
 	rm -f $(TARGET) $(OBJECTS)

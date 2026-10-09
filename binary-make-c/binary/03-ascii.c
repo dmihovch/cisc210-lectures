@@ -4,11 +4,9 @@ int main(void) {
     unsigned char c = 'C';
     unsigned char bang = '!';
 
-    printf("'C' is the number %d\n", c);
-    printf("'!' is the number %d\n", bang);
-    printf("67 printed as a character: %c\n", 67);
-    printf("33 printed as a character: %c\n", 33);
-    printf("67 and 33 together: %c%c\n", 67, 33);
+    printf("01000011 = %d = '%c'\n", c, c);
+    printf("00100001 = %d = '%c'\n", bang, bang);
+	printf("The secret message was...\n             C!\nSince everybody is so excited to program in C, right!?\n");
 
     return 0;
 }

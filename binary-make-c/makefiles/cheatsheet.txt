@@ -1,0 +1,4 @@
+$@  the target of the rule
+$<  the first prerequisite
+$^  all prerequisites, duplicates removed
+
