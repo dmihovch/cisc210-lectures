@@ -1,10 +1,12 @@
 # object files
 *.o
 
+projector-troubles.txt
+
 # compiled programs
 a.out
 binary-make-c/binary/01-unsigned
-binary-make-c/binary/02-ascii-table
+binary-make-c/binary/02-secret-messages
 binary-make-c/binary/03-ascii
 binary-make-c/binary/04-binary
 binary-make-c/binary/05-hex
