@@ -11,9 +11,5 @@ $(TARGET): $(OBJECTS)
 %.o: %.c
 	$(CC) $(CFLAGS) -c $<
 
-main.o: ascii.h binary.h
-binary.o: binary.h
-ascii.o: ascii.h binary.h
-
 clean:
 	rm -f $(TARGET) $(OBJECTS)

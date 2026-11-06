@@ -1,10 +1,14 @@
-CC = cc
+CC = gcc
 CFLAGS = -Wall -Wextra
 TARGET = convert
 SOURCES = main.c binary.c ascii.c
 
 all:
 	$(CC) $(CFLAGS) $(SOURCES) -o $(TARGET)
+
+debug:
+	$(CC) $(CFLAGS) $(SOURCES) -g -o $(TARGET)
+	
 
 clean:
 	rm -f $(TARGET)
